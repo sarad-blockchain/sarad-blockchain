@@ -316,7 +316,7 @@
 <rect x="22"  y="1212" width="272" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
 <rect x="38"  y="1228" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
 <text x="55"  y="1251" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">⊙</text>
-<text x="82"  y="1244" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Entiendo antes de codear</text>
+<text x="82"  y="1244" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Entiendo antes de escribir código</text>
 <text x="38"  y="1282" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Primero analizo el problema real,</text>
 <text x="38"  y="1300" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">los usuarios y el contexto.</text>
 <text x="38"  y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">El código viene después, no antes.</text>
@@ -327,7 +327,7 @@
 <text x="364" y="1244" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Itero rápido, no perfecto</text>
 <text x="320" y="1282" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Prefiero algo funcional que</text>
 <text x="320" y="1300" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">se puede mejorar a algo perfecto</text>
-<text x="320" y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">que nunca se entrega.</text>
+<text x="320" y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">que nunca se entrega.Ship, aprende, mejora.</text>
 
 <rect x="586" y="1212" width="292" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
 <rect x="602" y="1228" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
@@ -335,7 +335,7 @@
 <text x="646" y="1244" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">El detalle importa</text>
 <text x="602" y="1282" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Vengo del mundo visual. La UX</text>
 <text x="602" y="1300" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">y la coherencia estética no son</text>
-<text x="602" y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">extras. Son parte del producto.</text>
+<text x="602" y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">extras, son parte del producto.</text>
 
 <!-- Row 2 -->
 <rect x="22"  y="1386" width="272" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
@@ -344,7 +344,7 @@
 <text x="82"  y="1418" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Colaboro de verdad</text>
 <text x="38"  y="1456" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Comparto contexto, pregunto</text>
 <text x="38"  y="1474" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">cuando no sé y propongo</text>
-<text x="38"  y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">cuando veo oportunidad. Sin egos.</text>
+<text x="38"  y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">cuando veo una oportunidad. Sin egos.</text>
 
 <rect x="304" y="1386" width="272" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
 <rect x="320" y="1402" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
@@ -360,7 +360,7 @@
 <text x="646" y="1418" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Creativa con propósito</text>
 <text x="602" y="1456" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">La creatividad sin estructura es</text>
 <text x="602" y="1474" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">ruido. La estructura sin creatividad</text>
-<text x="602" y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">es aburrida. Busco las dos.</text>
+<text x="602" y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">es aburrida. Busco las dos a la vez.</text>
 
 <line x1="0" y1="1562" x2="900" y2="1562" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
 
@@ -370,13 +370,13 @@
 
 <rect x="22" y="1610" width="856" height="120" fill="rgba(108,0,97,0.15)" rx="8"/>
 <rect x="22" y="1610" width="3"   height="120" fill="#be03ab" rx="2"/>
-<text x="42" y="1638" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">Soy desarrolladora Full Stack con experiencia real en producción — entrego proyectos</text>
+<text x="42" y="1638" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">Soy desarrolladora Full Stack con experiencia real en producción, entrego proyectos</text>
 <text x="42" y="1658" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">completos, desde la arquitectura hasta el front-end.</text>
 <text x="42" y="1682" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">Integro IA cuando aporta valor, diseño pensando en el usuario, y escribo código que escala.</text>
-<text x="42" y="1706" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">Ahora sumando blockchain: construyendo proyectos funcionales desde el día uno.</text>
+<text x="42" y="1706" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">Ahora estoy sumando blockchain a ese stack, construyendo desde el día uno con proyectos funcionales y desplegados.</text>
 
 <!-- CONTACT -->
-<text x="450" y="1768" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.65)">Si buscas solidez técnica full stack, experiencia con IA y crecimiento activo en blockchain —</text>
+<text x="450" y="1768" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.65)">Si buscas solidez técnica full stack, experiencia con IA y crecimiento activo en blockchain hablemos.</text>
 <text x="450" y="1794" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#ffa6f6">sdeleyto@gmail.com</text>
 <text x="450" y="1818" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.5)">LinkedIn · Madrid, España</text>
 
