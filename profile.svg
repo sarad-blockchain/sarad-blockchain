@@ -103,7 +103,7 @@
 <rect x="0" y="196" width="900" height="9" fill="#6c0061"/>
 
 <rect x="290" y="20" width="320" height="24" fill="#6c0061" rx="12"/>
-<text x="450" y="37" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6" letter-spacing="1.8">OPEN TO BLOCKCHAIN ROLES · MADRID</text>
+<text x="450" y="37" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6" letter-spacing="1.8">OPEN TO BLOCKCHAIN ROLES</text>
 
 <text x="450" y="88" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">Sara <tspan fill="#ffa6f6">Deleyto</tspan></text>
 <text x="450" y="113" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.75)">Full Stack Developer con experiencia real en producción — aplicaciones web completas,</text>
