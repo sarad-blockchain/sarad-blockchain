@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1840" viewBox="0 0 900 1840">
+<defs>
+  <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6c0061"/>
+    <stop offset="50%" stop-color="#be03ab"/>
+    <stop offset="100%" stop-color="#ffa6f6"/>
+  </linearGradient>
+  <style>
+    @keyframes fall1 { from{transform:translateY(-120px)} to{transform:translateY(1900px)} }
+    @keyframes fall2 { from{transform:translateY(-300px)} to{transform:translateY(1900px)} }
+    @keyframes fall3 { from{transform:translateY(-80px)}  to{transform:translateY(1900px)} }
+    @keyframes fall4 { from{transform:translateY(-200px)} to{transform:translateY(1900px)} }
+    @keyframes fall5 { from{transform:translateY(-400px)} to{transform:translateY(1900px)} }
+    .mc { font-family: monospace; font-size: 13px; fill: #be03ab; opacity: 0.35; animation-timing-function: linear; animation-iteration-count: infinite; }
+    .mb { fill: #ffa6f6; opacity: 0.55; }
+    .a1 { animation: fall1 9s linear infinite; }
+    .a2 { animation: fall2 12s linear infinite; }
+    .a3 { animation: fall3 7s linear infinite; }
+    .a4 { animation: fall4 14s linear infinite; }
+    .a5 { animation: fall5 10s linear infinite; }
+    .a6 { animation: fall1 16s linear infinite; }
+    .a7 { animation: fall2 6s linear infinite; }
+    .a8 { animation: fall3 11s linear infinite; }
+    .a9 { animation: fall4 8s linear infinite; }
+    .a10{ animation: fall5 13s linear infinite; }
+    .a11{ animation: fall1 5s linear infinite; }
+    .a12{ animation: fall2 15s linear infinite; }
+    .a13{ animation: fall3 9.5s linear infinite; }
+    .a14{ animation: fall4 7.5s linear infinite; }
+    .a15{ animation: fall5 11.5s linear infinite; }
+    .a16{ animation: fall1 13.5s linear infinite; }
+    .a17{ animation: fall2 8.5s linear infinite; }
+    .a18{ animation: fall3 6.5s linear infinite; }
+    .a19{ animation: fall4 10.5s linear infinite; }
+    .a20{ animation: fall5 4.5s linear infinite; }
+  </style>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="1840" fill="#280128" rx="12"/>
+
+<!-- Matrix rain columns -->
+<text class="mc a1"  x="18" >0&#10;1&#10;{&#10;}&#10;0&#10;x&#10;A&#10;F&#10;;&#10;=&#10;&gt;&#10;d&#10;e</text>
+<text class="mc a2"  x="44" >1&#10;0&#10;=&#10;&gt;&#10;d&#10;e&#10;a&#10;b&#10;{&#10;}&#10;;&#10;F&#10;F</text>
+<text class="mc a3 mb" x="70">a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;0&#10;1&#10;(&#10;)&#10;x&#10;A&#10;B</text>
+<text class="mc a4"  x="96" >(&#10;)&#10;=&#10;{&#10;}&#10;0&#10;x&#10;F&#10;F&#10;1&#10;0&#10;a&#10;b</text>
+<text class="mc a5 mb" x="122">1&#10;0&#10;1&#10;0&#10;x&#10;d&#10;e&#10;f&#10;=&#10;&gt;&#10;;&#10;{&#10;}</text>
+<text class="mc a6"  x="148">a&#10;b&#10;c&#10;=&#10;&gt;&#10;(&#10;)&#10;;&#10;0&#10;x&#10;1&#10;F&#10;a</text>
+<text class="mc a7 mb" x="178">0&#10;x&#10;b&#10;e&#10;e&#10;f&#10;1&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f</text>
+<text class="mc a8"  x="210">d&#10;e&#10;a&#10;d&#10;0&#10;x&#10;1&#10;0&#10;=&#10;&gt;&#10;a&#10;b&#10;c</text>
+<text class="mc a9"  x="248">{&#10;}&#10;;&#10;=&#10;&gt;&#10;a&#10;b&#10;c&#10;0&#10;1&#10;x&#10;F&#10;F</text>
+<text class="mc a10 mb" x="290">1&#10;0&#10;1&#10;a&#10;f&#10;0&#10;x&#10;d&#10;e&#10;a&#10;d&#10;b&#10;e</text>
+<text class="mc a11" x="338">e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;0&#10;1&#10;a&#10;b&#10;c&#10;d</text>
+<text class="mc a12 mb" x="385">0&#10;x&#10;F&#10;F&#10;a&#10;b&#10;1&#10;0&#10;;&#10;{&#10;}&#10;=&#10;&gt;</text>
+<text class="mc a13" x="430">(&#10;)&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;1&#10;0&#10;x&#10;a&#10;b&#10;c</text>
+<text class="mc a14 mb" x="478">0&#10;1&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;0&#10;x&#10;F&#10;F&#10;1</text>
+<text class="mc a15" x="524">d&#10;e&#10;a&#10;d&#10;0&#10;x&#10;b&#10;e&#10;e&#10;f&#10;1&#10;0&#10;a</text>
+<text class="mc a16 mb" x="574">e&#10;f&#10;1&#10;0&#10;a&#10;b&#10;c&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;0</text>
+<text class="mc a17" x="622">0&#10;x&#10;F&#10;F&#10;{&#10;}&#10;=&#10;&gt;&#10;1&#10;0&#10;1&#10;0&#10;a</text>
+<text class="mc a18 mb" x="668">1&#10;0&#10;1&#10;0&#10;a&#10;f&#10;0&#10;x&#10;d&#10;e&#10;a&#10;d&#10;b</text>
+<text class="mc a19" x="718">(&#10;)&#10;;&#10;{&#10;}&#10;0&#10;x&#10;1&#10;a&#10;b&#10;c&#10;=&#10;&gt;</text>
+<text class="mc a20 mb" x="768">a&#10;b&#10;c&#10;=&#10;&gt;&#10;0&#10;1&#10;f&#10;x&#10;F&#10;F&#10;d&#10;e</text>
+<text class="mc a3"  x="818">0&#10;x&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;1&#10;0&#10;;&#10;{&#10;}</text>
+<text class="mc a9 mb" x="858">d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;0&#10;x&#10;1&#10;a&#10;b</text>
+
+<!-- ═══ HERO ═══ -->
+<rect x="0" y="0" width="900" height="205" fill="#6c006155" rx="12"/>
+<rect x="0" y="196" width="900" height="9" fill="#6c0061"/>
+
+<rect x="318" y="20" width="264" height="24" fill="#6c0061" rx="12"/>
+<text x="450" y="37" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6" letter-spacing="1.8">OPEN TO BLOCKCHAIN ROLES</text>
+
+<text x="450" y="88" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">Sara <tspan fill="#ffa6f6">Deleyto</tspan></text>
+<text x="450" y="118" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.7)">Full Stack Developer · REST APIs · OpenAI API · Solidity en curso</text>
+
+<!-- Pills hero -->
+<rect x="22"  y="140" width="118" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="81"  y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">HTML / CSS / JS</text>
+<rect x="148" y="140" width="80"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="188" y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">Angular</text>
+<rect x="236" y="140" width="106" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="289" y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">PHP + MySQLi</text>
+<rect x="350" y="140" width="90"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="395" y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">REST APIs</text>
+<rect x="448" y="140" width="100" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="498" y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">OpenAI API</text>
+<rect x="556" y="140" width="100" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="606" y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">WordPress</text>
+<rect x="664" y="140" width="80"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="704" y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">Solidity</text>
+<rect x="752" y="140" width="96"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="800" y="155" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">Bootstrap</text>
+
+<!-- ═══ LO QUE ME HACE DIFERENTE ═══ -->
+<text x="36" y="232" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">LO QUE ME HACE DIFERENTE</text>
+<line x1="292" y1="227" x2="876" y2="227" stroke="#6c0061" stroke-width="1"/>
+
+<rect x="22"  y="248" width="200" height="130" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="40"  y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Full Stack en producción</text>
+<text x="40"  y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Front-end, back-end, BBDD</text>
+<text x="40"  y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Integración REST APIs</text>
+<text x="40"  y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Deploy y optimización real</text>
+<text x="40"  y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Proyectos en producción</text>
+<text x="40"  y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Angular · Bootstrap · PHP</text>
+
+<rect x="232" y="248" width="200" height="130" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="250" y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">IA aplicada</text>
+<text x="250" y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Chatbots con fine-tuning</text>
+<text x="250" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Automatización procesos</text>
+<text x="250" y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· OpenAI API en prod.</text>
+<text x="250" y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Integración en plataformas</text>
+<text x="250" y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· AI-driven UX</text>
+
+<rect x="442" y="248" width="200" height="130" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="460" y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Diseño + código</text>
+<text x="460" y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· UI/UX con Figma</text>
+<text x="460" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Adobe Suite completo</text>
+<text x="460" y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Visión técnica y visual</text>
+<text x="460" y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Diseño responsivo</text>
+<text x="460" y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Illustrator · Premiere</text>
+
+<rect x="652" y="248" width="226" height="130" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="670" y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Transición a Web3</text>
+<text x="670" y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· 25+ proyectos DeFi en curso</text>
+<text x="670" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Smart contracts desde cero</text>
+<text x="670" y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Blockchain Accelerator</text>
+<text x="670" y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Hardhat · Foundry</text>
+<text x="670" y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Solidity en producción</text>
+
+<line x1="0" y1="398" x2="900" y2="398" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ STACK ═══ -->
+<text x="36" y="424" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">STACK</text>
+<line x1="88" y1="419" x2="876" y2="419" stroke="#6c0061" stroke-width="1"/>
+
+<!-- Left col -->
+<text x="36"  y="450" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">JavaScript</text>
+<rect x="150" y="440" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="440" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="472" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">HTML5 / CSS3</text>
+<rect x="150" y="462" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="462" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="494" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Angular</text>
+<rect x="150" y="484" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="484" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="516" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Bootstrap</text>
+<rect x="150" y="506" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="506" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="538" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">PHP</text>
+<rect x="150" y="528" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="528" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="560" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">MySQLi</text>
+<rect x="150" y="550" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="550" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<!-- Right col -->
+<text x="456" y="450" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">REST APIs</text>
+<rect x="570" y="440" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="440" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="472" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">OpenAI API</text>
+<rect x="570" y="462" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="462" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="494" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Figma</text>
+<rect x="570" y="484" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="484" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="516" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Adobe Suite</text>
+<rect x="570" y="506" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="506" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="538" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Solidity</text>
+<rect x="570" y="528" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="528" width="100" height="4" fill="url(#barGrad)" rx="2"/>
+<text x="682" y="524" font-family="monospace" font-size="9" fill="rgba(190,3,171,0.7)">en curso</text>
+
+<text x="456" y="560" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Web3 / DeFi</text>
+<rect x="570" y="550" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="550" width="67"  height="4" fill="url(#barGrad)" rx="2"/>
+<text x="650" y="546" font-family="monospace" font-size="9" fill="rgba(190,3,171,0.7)">en curso</text>
+
+<line x1="0" y1="582" x2="900" y2="582" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ BLOCKCHAIN AHORA MISMO ═══ -->
+<text x="36" y="608" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">CONSTRUYENDO EN BLOCKCHAIN AHORA MISMO</text>
+<line x1="496" y1="603" x2="876" y2="603" stroke="#6c0061" stroke-width="1"/>
+
+<!-- Row 1 -->
+<rect x="22"  y="622" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="122" y="652" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⇄</text>
+<text x="122" y="676" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">DEX</text>
+<text x="122" y="696" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">Uniswap-style</text>
+
+<rect x="232" y="622" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="332" y="652" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">◎</text>
+<text x="332" y="676" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Tokens ERC-20</text>
+<text x="332" y="696" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">deploy &amp; custom</text>
+
+<rect x="442" y="622" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="542" y="652" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">◈</text>
+<text x="542" y="676" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Liquidity Pools</text>
+<text x="542" y="696" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">AMM mechanics</text>
+
+<rect x="652" y="622" width="226" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="765" y="652" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⌘</text>
+<text x="765" y="676" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Yield Farming</text>
+<text x="765" y="696" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">DeFi rewards</text>
+
+<!-- Row 2 -->
+<rect x="22"  y="718" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="122" y="748" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⬡</text>
+<text x="122" y="772" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Lending</text>
+<text x="122" y="792" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">borrow protocols</text>
+
+<rect x="232" y="718" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="332" y="748" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⬢</text>
+<text x="332" y="772" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">SC Security</text>
+<text x="332" y="792" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">auditing &amp; assembly</text>
+
+<rect x="442" y="718" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="542" y="748" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⇢</text>
+<text x="542" y="772" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Gasless Txs</text>
+<text x="542" y="792" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">off-chain sigs</text>
+
+<rect x="652" y="718" width="226" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="765" y="748" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">▲</text>
+<text x="765" y="772" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Presales</text>
+<text x="765" y="792" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">token launch</text>
+
+<line x1="0" y1="824" x2="900" y2="824" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ PROYECTOS EN CURSO ═══ -->
+<text x="36" y="850" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">PROYECTOS EN CURSO</text>
+<line x1="242" y1="845" x2="876" y2="845" stroke="#6c0061" stroke-width="1"/>
+
+<rect x="22" y="862" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="882" r="5" fill="#be03ab"/>
+<text x="62" y="887" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">DEX — exchange descentralizado</text>
+<text x="760" y="887" font-family="monospace" font-size="10" fill="#be03ab">Solidity · Hardhat</text>
+
+<rect x="22" y="910" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="930" r="5" fill="#be03ab"/>
+<text x="62" y="935" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Token ERC-20 personalizado</text>
+<text x="800" y="935" font-family="monospace" font-size="10" fill="#be03ab">Solidity</text>
+
+<rect x="22" y="958" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="978" r="5" fill="#6c0061"/>
+<text x="62" y="983" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Liquidity Pool AMM</text>
+<text x="748" y="983" font-family="monospace" font-size="10" fill="#be03ab">Solidity · Web3.js</text>
+
+<rect x="22" y="1006" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="1026" r="5" fill="#6c0061"/>
+<text x="62" y="1031" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Yield Farming protocol</text>
+<text x="800" y="1031" font-family="monospace" font-size="10" fill="#be03ab">Solidity</text>
+
+<rect x="22" y="1054" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="1074" r="5" fill="#6c0061"/>
+<text x="62" y="1079" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Lending / Borrowing protocol</text>
+<text x="800" y="1079" font-family="monospace" font-size="10" fill="#be03ab">Solidity</text>
+
+<rect x="22" y="1102" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="1122" r="5" fill="#6c0061"/>
+<text x="62" y="1127" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Smart contract security audit</text>
+<text x="730" y="1127" font-family="monospace" font-size="10" fill="#be03ab">Solidity · Assembly</text>
+
+<line x1="0" y1="1162" x2="900" y2="1162" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ CÓMO TRABAJO ═══ -->
+<text x="36" y="1188" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">CÓMO TRABAJO</text>
+<line x1="180" y1="1183" x2="876" y2="1183" stroke="#6c0061" stroke-width="1"/>
+
+<!-- Row 1 -->
+<rect x="22"  y="1202" width="272" height="118" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="38"  y="1216" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="55"  y="1239" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">⊙</text>
+<text x="82"  y="1232" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Entiendo antes de codear</text>
+<text x="38"  y="1260" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Analizo el problema real primero.</text>
+<text x="38"  y="1277" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">El código viene después.</text>
+<text x="38"  y="1294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">No al revés.</text>
+
+<rect x="304" y="1202" width="272" height="118" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="320" y="1216" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="337" y="1239" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">↻</text>
+<text x="364" y="1232" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Itero rápido, no perfecto</text>
+<text x="320" y="1260" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Funcional que mejora &gt; perfecto</text>
+<text x="320" y="1277" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">que nunca se entrega.</text>
+<text x="320" y="1294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Ship · aprende · mejora.</text>
+
+<rect x="586" y="1202" width="292" height="118" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="602" y="1216" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="619" y="1239" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">◉</text>
+<text x="646" y="1232" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">El detalle importa</text>
+<text x="602" y="1260" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">UX y coherencia estética no son</text>
+<text x="602" y="1277" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">extras. Son parte del producto.</text>
+
+<!-- Row 2 -->
+<rect x="22"  y="1332" width="272" height="118" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="38"  y="1346" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="55"  y="1369" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">⬡</text>
+<text x="82"  y="1362" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Colaboro de verdad</text>
+<text x="38"  y="1390" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Comparto contexto, pregunto</text>
+<text x="38"  y="1407" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">cuando no sé y propongo</text>
+<text x="38"  y="1424" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">cuando veo oportunidad.</text>
+
+<rect x="304" y="1332" width="272" height="118" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="320" y="1346" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="337" y="1369" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">◈</text>
+<text x="364" y="1362" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Aprendo en público</text>
+<text x="320" y="1390" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Cada proyecto del máster</text>
+<text x="320" y="1407" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">acaba aquí. Si aprendo,</text>
+<text x="320" y="1424" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">lo documento.</text>
+
+<rect x="586" y="1332" width="292" height="118" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="602" y="1346" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="619" y="1369" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">✦</text>
+<text x="646" y="1362" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Creativa con propósito</text>
+<text x="602" y="1390" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Creatividad sin estructura es</text>
+<text x="602" y="1407" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">ruido. Las dos juntas</text>
+<text x="602" y="1424" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">son producto.</text>
+
+<line x1="0" y1="1466" x2="900" y2="1466" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ POR QUÉ QUERRÍAS TRABAJAR CONMIGO ═══ -->
+<text x="36" y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">POR QUÉ QUERRÍAS TRABAJAR CONMIGO</text>
+<line x1="464" y1="1487" x2="876" y2="1487" stroke="#6c0061" stroke-width="1"/>
+
+<rect x="22" y="1506" width="856" height="112" fill="rgba(108,0,97,0.15)" rx="8"/>
+<rect x="22" y="1506" width="3"   height="112" fill="#be03ab" rx="2"/>
+<text x="42" y="1534" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">Soy desarrolladora Full Stack con experiencia real en producción — entrego proyectos completos,</text>
+<text x="42" y="1554" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">desde la arquitectura hasta el front-end.</text>
+<text x="42" y="1578" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">Integro IA cuando aporta valor, diseño pensando en el usuario, y escribo código que escala.</text>
+<text x="42" y="1600" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">Ahora estoy sumando blockchain: construyendo proyectos funcionales desde el día uno.</text>
+
+<!-- CONTACT -->
+<text x="450" y="1660" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.65)">Si buscas solidez técnica full stack, experiencia con IA y crecimiento activo en blockchain —</text>
+<text x="450" y="1686" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#ffa6f6">sdeleyto@gmail.com</text>
+
+<!-- FOOTER -->
+<rect x="0" y="1790" width="900" height="50" fill="#1a001a" rx="0"/>
+<rect x="0" y="1790" width="900" height="1"  fill="#6c0061"/>
+<text x="450" y="1820" text-anchor="middle" font-family="monospace" font-size="11" fill="rgba(255,166,246,0.3)" letter-spacing="1">sarad-blockchain · building on-chain · one commit at a time</text>
+
+</svg>
