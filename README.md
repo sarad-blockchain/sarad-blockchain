@@ -1,1 +1,1 @@
-![Mi Perfil](./profile.svg)
+![Mi Perfil](./profile_english.svg)
