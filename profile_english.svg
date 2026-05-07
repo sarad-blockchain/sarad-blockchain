@@ -1,0 +1,388 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1920" viewBox="0 0 900 1920">
+<defs>
+  <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6c0061"/>
+    <stop offset="50%" stop-color="#be03ab"/>
+    <stop offset="100%" stop-color="#ffa6f6"/>
+  </linearGradient>
+  <style>
+    @keyframes fall1 { from{transform:translateY(-160px)} to{transform:translateY(1980px)} }
+    @keyframes fall2 { from{transform:translateY(-320px)} to{transform:translateY(1980px)} }
+    @keyframes fall3 { from{transform:translateY(-80px)}  to{transform:translateY(1980px)} }
+    @keyframes fall4 { from{transform:translateY(-240px)} to{transform:translateY(1980px)} }
+    @keyframes fall5 { from{transform:translateY(-400px)} to{transform:translateY(1980px)} }
+    .mc { font-family: monospace; font-size: 13px; fill: #be03ab; opacity: 0.28; animation-timing-function: linear; animation-iteration-count: infinite; white-space: pre; }
+    .mb { fill: #ffa6f6; opacity: 0.5; }
+    .mh { fill: #ffffff; opacity: 0.7; }
+    .a1  { animation: fall1  5s  linear infinite; }
+    .a2  { animation: fall2  7s  linear infinite; }
+    .a3  { animation: fall3  4s  linear infinite; }
+    .a4  { animation: fall4  6s  linear infinite; }
+    .a5  { animation: fall5  8s  linear infinite; }
+    .a6  { animation: fall1  9s  linear infinite; }
+    .a7  { animation: fall2  3.5s linear infinite; }
+    .a8  { animation: fall3  6.5s linear infinite; }
+    .a9  { animation: fall4  4.5s linear infinite; }
+    .a10 { animation: fall5  7.5s linear infinite; }
+    .a11 { animation: fall1  3s  linear infinite; }
+    .a12 { animation: fall2  8.5s linear infinite; }
+    .a13 { animation: fall3  5.5s linear infinite; }
+    .a14 { animation: fall4  4s  linear infinite; }
+    .a15 { animation: fall5  6s  linear infinite; }
+    .a16 { animation: fall1  7s  linear infinite; }
+    .a17 { animation: fall2  5s  linear infinite; }
+    .a18 { animation: fall3  3.8s linear infinite; }
+    .a19 { animation: fall4  6.2s linear infinite; }
+    .a20 { animation: fall5  2.8s linear infinite; }
+    .a21 { animation: fall1  8s  linear infinite; }
+    .a22 { animation: fall2  4.2s linear infinite; }
+    .a23 { animation: fall3  7.2s linear infinite; }
+    .a24 { animation: fall4  3.2s linear infinite; }
+    .a25 { animation: fall5  5.8s linear infinite; }
+    .a26 { animation: fall1  4.8s linear infinite; }
+    .a27 { animation: fall2  6.8s linear infinite; }
+    .a28 { animation: fall3  3.6s linear infinite; }
+    .a29 { animation: fall4  8.2s linear infinite; }
+    .a30 { animation: fall5  5.2s linear infinite; }
+    .a31 { animation: fall1  2.5s linear infinite; }
+    .a32 { animation: fall2  9.5s linear infinite; }
+    .a33 { animation: fall3  4.6s linear infinite; }
+    .a34 { animation: fall4  6.4s linear infinite; }
+    .a35 { animation: fall5  3.4s linear infinite; }
+  </style>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="1920" fill="#280128" rx="12"/>
+
+<!-- Matrix rain columns — muy densa, animaciones rápidas -->
+<text class="mc a1"  x="10" >0&#10;1&#10;{&#10;}&#10;0&#10;x&#10;A&#10;F&#10;;&#10;=&#10;&gt;&#10;d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;0&#10;1</text>
+<text class="mc a2  mb" x="30" >1&#10;0&#10;=&#10;&gt;&#10;d&#10;e&#10;a&#10;b&#10;{&#10;}&#10;;&#10;F&#10;F&#10;x&#10;A&#10;B&#10;C&#10;0&#10;1&#10;(&#10;)</text>
+<text class="mc a3  mh" x="50" >a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;0&#10;1&#10;(&#10;)&#10;x&#10;A&#10;B&#10;=&#10;&gt;&#10;;&#10;{&#10;}&#10;0&#10;x&#10;F</text>
+<text class="mc a4"  x="70" >(&#10;)&#10;=&#10;{&#10;}&#10;0&#10;x&#10;F&#10;F&#10;1&#10;0&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;;&#10;=&#10;&gt;&#10;1</text>
+<text class="mc a5  mb" x="90" >1&#10;0&#10;1&#10;0&#10;x&#10;d&#10;e&#10;f&#10;=&#10;&gt;&#10;;&#10;{&#10;}&#10;a&#10;b&#10;c&#10;F&#10;F&#10;0&#10;1&#10;x</text>
+<text class="mc a6"  x="110">a&#10;b&#10;c&#10;=&#10;&gt;&#10;(&#10;)&#10;;&#10;0&#10;x&#10;1&#10;F&#10;a&#10;b&#10;d&#10;e&#10;{&#10;}&#10;=&#10;0&#10;1</text>
+<text class="mc a7  mh" x="130">0&#10;x&#10;b&#10;e&#10;e&#10;f&#10;1&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;0&#10;x&#10;F&#10;F&#10;;&#10;=&#10;&gt;&#10;{</text>
+<text class="mc a8"  x="150">d&#10;e&#10;a&#10;d&#10;0&#10;x&#10;1&#10;0&#10;=&#10;&gt;&#10;a&#10;b&#10;c&#10;{&#10;}&#10;;&#10;F&#10;F&#10;1&#10;0&#10;a</text>
+<text class="mc a9  mb" x="170">{&#10;}&#10;;&#10;=&#10;&gt;&#10;a&#10;b&#10;c&#10;0&#10;1&#10;x&#10;F&#10;F&#10;d&#10;e&#10;(&#10;)&#10;0&#10;x&#10;1&#10;a</text>
+<text class="mc a10"  x="190">1&#10;0&#10;1&#10;a&#10;f&#10;0&#10;x&#10;d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;{&#10;}&#10;;&#10;=&#10;&gt;&#10;0</text>
+<text class="mc a11 mh" x="210">e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;0&#10;1&#10;a&#10;b&#10;c&#10;d&#10;x&#10;F&#10;F&#10;(&#10;)&#10;;&#10;{&#10;}</text>
+<text class="mc a12 mb" x="232">0&#10;x&#10;F&#10;F&#10;a&#10;b&#10;1&#10;0&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;d&#10;e&#10;a&#10;b&#10;c&#10;0&#10;1&#10;x</text>
+<text class="mc a13"  x="254">(&#10;)&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;1&#10;0&#10;x&#10;a&#10;b&#10;c&#10;F&#10;F&#10;d&#10;e&#10;{&#10;}&#10;;&#10;0</text>
+<text class="mc a14 mh" x="276">0&#10;1&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;0&#10;x&#10;F&#10;F&#10;1&#10;=&#10;&gt;&#10;(&#10;)&#10;;&#10;{&#10;}&#10;=</text>
+<text class="mc a15"  x="298">d&#10;e&#10;a&#10;d&#10;0&#10;x&#10;b&#10;e&#10;e&#10;f&#10;1&#10;0&#10;a&#10;b&#10;c&#10;{&#10;}&#10;;&#10;F&#10;F&#10;0</text>
+<text class="mc a16 mb" x="320">e&#10;f&#10;1&#10;0&#10;a&#10;b&#10;c&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;0&#10;x&#10;F&#10;F&#10;d&#10;e&#10;a&#10;b&#10;1</text>
+<text class="mc a17"  x="342">0&#10;x&#10;F&#10;F&#10;{&#10;}&#10;=&#10;&gt;&#10;1&#10;0&#10;1&#10;0&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;;&#10;=&#10;&gt;</text>
+<text class="mc a18 mh" x="364">1&#10;0&#10;1&#10;0&#10;a&#10;f&#10;0&#10;x&#10;d&#10;e&#10;a&#10;d&#10;b&#10;{&#10;}&#10;;&#10;F&#10;F&#10;1&#10;0&#10;a</text>
+<text class="mc a19"  x="386">(&#10;)&#10;;&#10;{&#10;}&#10;0&#10;x&#10;1&#10;a&#10;b&#10;c&#10;=&#10;&gt;&#10;d&#10;e&#10;f&#10;0&#10;1&#10;x&#10;F&#10;F</text>
+<text class="mc a20 mb" x="408">a&#10;b&#10;c&#10;=&#10;&gt;&#10;0&#10;1&#10;f&#10;x&#10;F&#10;F&#10;d&#10;e&#10;{&#10;}&#10;;&#10;=&#10;&gt;&#10;0&#10;x&#10;1</text>
+<text class="mc a21"  x="430">0&#10;x&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;1&#10;0&#10;;&#10;{&#10;}&#10;F&#10;F&#10;=&#10;&gt;&#10;(&#10;)&#10;0&#10;1</text>
+<text class="mc a22 mh" x="452">d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;0&#10;x&#10;1&#10;a&#10;b&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;F&#10;F&#10;0</text>
+<text class="mc a23 mb" x="474">{&#10;}&#10;=&#10;&gt;&#10;0&#10;x&#10;F&#10;F&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;1&#10;0&#10;;&#10;(&#10;)&#10;=&#10;&gt;</text>
+<text class="mc a24"  x="496">a&#10;b&#10;c&#10;{&#10;}&#10;;&#10;=&#10;&gt;&#10;0&#10;1&#10;x&#10;F&#10;F&#10;d&#10;e&#10;a&#10;b&#10;c&#10;0&#10;1&#10;(</text>
+<text class="mc a25 mh" x="518">0&#10;x&#10;1&#10;0&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;F&#10;F&#10;0&#10;x&#10;1&#10;a</text>
+<text class="mc a26"  x="540">d&#10;e&#10;a&#10;d&#10;0&#10;x&#10;b&#10;e&#10;e&#10;f&#10;{&#10;}&#10;;&#10;1&#10;0&#10;a&#10;b&#10;c&#10;=&#10;&gt;&#10;F</text>
+<text class="mc a27 mb" x="562">1&#10;0&#10;1&#10;a&#10;f&#10;0&#10;x&#10;d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;0</text>
+<text class="mc a28 mh" x="584">(&#10;)&#10;;&#10;{&#10;}&#10;0&#10;x&#10;1&#10;a&#10;b&#10;c&#10;=&#10;&gt;&#10;d&#10;e&#10;f&#10;F&#10;F&#10;0&#10;1&#10;x</text>
+<text class="mc a29"  x="606">a&#10;b&#10;c&#10;=&#10;&gt;&#10;0&#10;1&#10;f&#10;x&#10;F&#10;F&#10;{&#10;}&#10;;&#10;d&#10;e&#10;a&#10;b&#10;c&#10;0&#10;1</text>
+<text class="mc a30 mb" x="628">0&#10;x&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;1&#10;0&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;F&#10;F&#10;(&#10;)&#10;0&#10;x</text>
+<text class="mc a31 mh" x="650">d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;0&#10;x&#10;1&#10;a&#10;b&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;F&#10;F&#10;1</text>
+<text class="mc a32"  x="672">{&#10;}&#10;=&#10;&gt;&#10;0&#10;x&#10;F&#10;F&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;1&#10;0&#10;;&#10;(&#10;)&#10;=&#10;a</text>
+<text class="mc a33 mb" x="694">a&#10;b&#10;c&#10;{&#10;}&#10;;&#10;=&#10;&gt;&#10;0&#10;1&#10;x&#10;F&#10;F&#10;d&#10;e&#10;a&#10;b&#10;0&#10;1&#10;(&#10;)</text>
+<text class="mc a34 mh" x="716">0&#10;x&#10;1&#10;0&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;F&#10;F&#10;0&#10;x&#10;1&#10;a</text>
+<text class="mc a35"  x="738">d&#10;e&#10;a&#10;d&#10;0&#10;x&#10;b&#10;e&#10;e&#10;f&#10;{&#10;}&#10;;&#10;1&#10;0&#10;a&#10;b&#10;c&#10;=&#10;&gt;&#10;F</text>
+<text class="mc a1  mb" x="760">1&#10;0&#10;1&#10;a&#10;f&#10;0&#10;x&#10;d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;0</text>
+<text class="mc a5  mh" x="782">(&#10;)&#10;;&#10;{&#10;}&#10;0&#10;x&#10;1&#10;a&#10;b&#10;c&#10;=&#10;&gt;&#10;d&#10;e&#10;f&#10;F&#10;F&#10;0&#10;1&#10;x</text>
+<text class="mc a9"   x="804">a&#10;b&#10;c&#10;=&#10;&gt;&#10;0&#10;1&#10;f&#10;x&#10;F&#10;F&#10;{&#10;}&#10;;&#10;d&#10;e&#10;a&#10;b&#10;c&#10;0&#10;1</text>
+<text class="mc a13 mb" x="826">0&#10;x&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;1&#10;0&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;F&#10;F&#10;(&#10;)&#10;0&#10;x</text>
+<text class="mc a17 mh" x="848">d&#10;e&#10;a&#10;d&#10;b&#10;e&#10;e&#10;f&#10;0&#10;x&#10;1&#10;a&#10;b&#10;;&#10;{&#10;}&#10;=&#10;&gt;&#10;F&#10;F&#10;1</text>
+<text class="mc a21"  x="870">{&#10;}&#10;=&#10;&gt;&#10;0&#10;x&#10;F&#10;F&#10;a&#10;b&#10;c&#10;d&#10;e&#10;f&#10;1&#10;0&#10;;&#10;(&#10;)&#10;=&#10;a</text>
+
+<!-- ═══ HERO ═══ -->
+<rect x="0" y="0" width="900" height="205" fill="#6c006155" rx="12"/>
+<rect x="0" y="196" width="900" height="9" fill="#6c0061"/>
+
+<rect x="290" y="20" width="320" height="24" fill="#6c0061" rx="12"/>
+<text x="450" y="37" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6" letter-spacing="1.8">OPEN TO BLOCKCHAIN ROLES</text>
+
+<text x="450" y="88" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">Sara <tspan fill="#ffa6f6">Deleyto</tspan></text>
+<text x="450" y="113" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.75)">Full Stack Developer · Real production experience · Angular · PHP · REST APIs · OpenAI</text>
+<text x="450" y="130" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.75)">Now building on-chain — Solidity smart contracts · DeFi protocols · Hardhat · Foundry</text>
+<text x="450" y="147" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">Full Stack foundation + applied AI + active blockchain growth.</text>
+
+<!-- Pills hero -->
+<rect x="22"  y="162" width="118" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="81"  y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">HTML / CSS / JS</text>
+<rect x="148" y="162" width="80"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="188" y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">Angular</text>
+<rect x="236" y="162" width="106" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="289" y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">PHP + MySQLi</text>
+<rect x="350" y="162" width="90"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="395" y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">REST APIs</text>
+<rect x="448" y="162" width="100" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="498" y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">OpenAI API</text>
+<rect x="556" y="162" width="100" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="606" y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">WordPress</text>
+<rect x="664" y="162" width="80"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="704" y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">Solidity</text>
+<rect x="752" y="162" width="96"  height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
+<text x="800" y="177" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#ffa6f6">Bootstrap</text>
+
+<!-- ═══ LO QUE ME HACE DIFERENTE ═══ -->
+<text x="36" y="232" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">WHAT SETS ME APART</text>
+<line x1="292" y1="227" x2="876" y2="227" stroke="#6c0061" stroke-width="1"/>
+
+<rect x="22"  y="248" width="200" height="140" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="40"  y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Full Stack in production</text>
+<text x="40"  y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Front-end, back-end, DB</text>
+<text x="40"  y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· REST API integration</text>
+<text x="40"  y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Deploy &amp; optimisation</text>
+<text x="40"  y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Angular · Bootstrap · PHP</text>
+<text x="40"  y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Shipped production projects</text>
+
+<rect x="232" y="248" width="200" height="140" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="250" y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Applied AI</text>
+<text x="250" y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Fine-tuned chatbots</text>
+<text x="250" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Process automation</text>
+<text x="250" y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· OpenAI API in live apps</text>
+<text x="250" y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Platform integration</text>
+<text x="250" y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· AI-driven UX</text>
+
+<rect x="442" y="248" width="200" height="140" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="460" y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Design + Code</text>
+<text x="460" y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· UI/UX with Figma</text>
+<text x="460" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Full Adobe Suite</text>
+<text x="460" y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Technical &amp; visual vision</text>
+<text x="460" y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Responsive design</text>
+<text x="460" y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Illustrator · Premiere</text>
+
+<rect x="652" y="248" width="226" height="140" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.3)" stroke-width="1"/>
+<text x="670" y="272" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Web3 Transition</text>
+<text x="670" y="294" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· 25+ DeFi projects in progress</text>
+<text x="670" y="312" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Smart contracts from scratch</text>
+<text x="670" y="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Blockchain Accelerator</text>
+<text x="670" y="348" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Hardhat · Foundry</text>
+<text x="670" y="366" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">· Solidity in production</text>
+
+<line x1="0" y1="408" x2="900" y2="408" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ STACK ═══ -->
+<text x="36" y="434" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">TECH STACK</text>
+<line x1="88" y1="429" x2="876" y2="429" stroke="#6c0061" stroke-width="1"/>
+
+<!-- Left col -->
+<text x="36"  y="460" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">JavaScript</text>
+<rect x="150" y="450" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="450" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="482" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">HTML5 / CSS3</text>
+<rect x="150" y="472" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="472" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="504" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Angular</text>
+<rect x="150" y="494" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="494" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="526" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Bootstrap</text>
+<rect x="150" y="516" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="516" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="548" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">PHP</text>
+<rect x="150" y="538" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="538" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="36"  y="570" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">MySQLi</text>
+<rect x="150" y="560" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="150" y="560" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<!-- Right col -->
+<text x="456" y="460" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">REST APIs</text>
+<rect x="570" y="450" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="450" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="482" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">OpenAI API</text>
+<rect x="570" y="472" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="472" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="504" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Figma</text>
+<rect x="570" y="494" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="494" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="526" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Adobe Suite</text>
+<rect x="570" y="516" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="516" width="268" height="4" fill="url(#barGrad)" rx="2"/>
+
+<text x="456" y="548" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Solidity</text>
+<rect x="570" y="538" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="538" width="100" height="4" fill="url(#barGrad)" rx="2"/>
+<text x="682" y="534" font-family="monospace" font-size="9" fill="rgba(190,3,171,0.7)">building</text>
+
+<text x="456" y="570" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="rgba(255,166,246,0.8)">Web3 / DeFi</text>
+<rect x="570" y="560" width="268" height="4" fill="rgba(108,0,97,0.4)" rx="2"/>
+<rect x="570" y="560" width="67"  height="4" fill="url(#barGrad)" rx="2"/>
+<text x="650" y="556" font-family="monospace" font-size="9" fill="rgba(190,3,171,0.7)">building</text>
+
+<line x1="0" y1="592" x2="900" y2="592" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ BLOCKCHAIN AHORA MISMO ═══ -->
+<text x="36" y="618" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">BUILDING ON-CHAIN RIGHT NOW</text>
+<line x1="496" y1="613" x2="876" y2="613" stroke="#6c0061" stroke-width="1"/>
+
+<!-- Row 1 -->
+<rect x="22"  y="632" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="122" y="662" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⇄</text>
+<text x="122" y="686" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">DEX</text>
+<text x="122" y="706" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">Uniswap-style</text>
+
+<rect x="232" y="632" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="332" y="662" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">◎</text>
+<text x="332" y="686" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Tokens ERC-20</text>
+<text x="332" y="706" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">deploy &amp; custom</text>
+
+<rect x="442" y="632" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="542" y="662" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">◈</text>
+<text x="542" y="686" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Liquidity Pools</text>
+<text x="542" y="706" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">AMM mechanics</text>
+
+<rect x="652" y="632" width="226" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="765" y="662" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⌘</text>
+<text x="765" y="686" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Yield Farming</text>
+<text x="765" y="706" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">DeFi rewards</text>
+
+<!-- Row 2 -->
+<rect x="22"  y="728" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="122" y="758" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⬡</text>
+<text x="122" y="782" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Lending</text>
+<text x="122" y="802" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">borrow protocols</text>
+
+<rect x="232" y="728" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="332" y="758" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⬢</text>
+<text x="332" y="782" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">SC Security</text>
+<text x="332" y="802" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">auditing &amp; assembly</text>
+
+<rect x="442" y="728" width="200" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="542" y="758" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">⇢</text>
+<text x="542" y="782" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Gasless Txs</text>
+<text x="542" y="802" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">off-chain sigs</text>
+
+<rect x="652" y="728" width="226" height="86" fill="rgba(40,1,40,0.8)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="765" y="758" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="20" fill="#be03ab">▲</text>
+<text x="765" y="782" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Presales</text>
+<text x="765" y="802" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="rgba(255,166,246,0.45)">token launch</text>
+
+<line x1="0" y1="834" x2="900" y2="834" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ PROYECTOS EN CURSO ═══ -->
+<text x="36" y="860" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">CURRENT PROJECTS</text>
+<line x1="242" y1="855" x2="876" y2="855" stroke="#6c0061" stroke-width="1"/>
+
+<rect x="22" y="872" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="892" r="5" fill="#be03ab"/>
+<text x="62" y="897" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Decentralised Exchange — Uniswap-style DEX</text>
+<text x="760" y="897" font-family="monospace" font-size="10" fill="#be03ab">Solidity · Hardhat</text>
+
+<rect x="22" y="920" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="940" r="5" fill="#be03ab"/>
+<text x="62" y="945" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Custom ERC-20 Token — deploy, configure, extend</text>
+<text x="800" y="945" font-family="monospace" font-size="10" fill="#be03ab">Solidity</text>
+
+<rect x="22" y="968" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="988" r="5" fill="#6c0061"/>
+<text x="62" y="993" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Liquidity Pool AMM — constant-product market maker</text>
+<text x="748" y="993" font-family="monospace" font-size="10" fill="#be03ab">Solidity · Web3.js</text>
+
+<rect x="22" y="1016" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="1036" r="5" fill="#6c0061"/>
+<text x="62" y="1041" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Yield Farming Protocol — staking, rewards, lock periods</text>
+<text x="800" y="1041" font-family="monospace" font-size="10" fill="#be03ab">Solidity</text>
+
+<rect x="22" y="1064" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="1084" r="5" fill="#6c0061"/>
+<text x="62" y="1089" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Lending &amp; Borrowing Protocol — collateral, rates, liquidations</text>
+<text x="800" y="1089" font-family="monospace" font-size="10" fill="#be03ab">Solidity</text>
+
+<rect x="22" y="1112" width="856" height="40" fill="rgba(40,1,40,0.8)" rx="8" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<circle cx="46" cy="1132" r="5" fill="#6c0061"/>
+<text x="62" y="1137" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Smart Contract Security Audit — reentrancy, overflow, assembly</text>
+<text x="730" y="1137" font-family="monospace" font-size="10" fill="#be03ab">Solidity · Assembly</text>
+
+<line x1="0" y1="1172" x2="900" y2="1172" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ CÓMO TRABAJO ═══ -->
+<text x="36" y="1198" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">HOW I WORK</text>
+<line x1="180" y1="1193" x2="876" y2="1193" stroke="#6c0061" stroke-width="1"/>
+
+<!-- Row 1 -->
+<rect x="22"  y="1212" width="272" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="38"  y="1228" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="55"  y="1251" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">⊙</text>
+<text x="82"  y="1244" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Understand before coding</text>
+<text x="38"  y="1282" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">I analyse the real problem first —</text>
+<text x="38"  y="1300" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">users, context, constraints.</text>
+<text x="38"  y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Code is the last step, not the first.</text>
+
+<rect x="304" y="1212" width="272" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="320" y="1228" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="337" y="1251" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">↻</text>
+<text x="364" y="1244" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Iterate fast, not perfect</text>
+<text x="320" y="1282" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Functional beats perfect-but-</text>
+<text x="320" y="1300" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">never-shipped. Ship, learn, improve.</text>
+<text x="320" y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Repeat until excellent.</text>
+
+<rect x="586" y="1212" width="292" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="602" y="1228" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="619" y="1251" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">◉</text>
+<text x="646" y="1244" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Details matter</text>
+<text x="602" y="1282" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">I come from visual design. UX</text>
+<text x="602" y="1300" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">and aesthetic coherence aren't</text>
+<text x="602" y="1318" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">extras — they're part of the product.</text>
+
+<!-- Row 2 -->
+<rect x="22"  y="1386" width="272" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="38"  y="1402" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="55"  y="1425" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">⬡</text>
+<text x="82"  y="1418" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Genuine collaboration</text>
+<text x="38"  y="1456" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">I share context, ask when unsure,</text>
+<text x="38"  y="1474" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">and propose when I see opportunity.</text>
+<text x="38"  y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">No ego. No silos.</text>
+
+<rect x="304" y="1386" width="272" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="320" y="1402" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="337" y="1425" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">◈</text>
+<text x="364" y="1418" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Learning in public</text>
+<text x="320" y="1456" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Every blockchain project ends up</text>
+<text x="320" y="1474" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">on this GitHub, documented.</text>
+<text x="320" y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">If I learn it, I share it.</text>
+
+<rect x="586" y="1386" width="292" height="158" fill="rgba(40,1,40,0.8)" rx="10" stroke="rgba(190,3,171,0.25)" stroke-width="1"/>
+<rect x="602" y="1402" width="34" height="34" fill="rgba(190,3,171,0.2)" rx="8" stroke="#6c0061" stroke-width="1"/>
+<text x="619" y="1425" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#be03ab">✦</text>
+<text x="646" y="1418" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#ffa6f6">Creative with purpose</text>
+<text x="602" y="1456" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Creativity without structure is noise.</text>
+<text x="602" y="1474" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">Structure without creativity is dull.</text>
+<text x="602" y="1492" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">I aim for both, always.</text>
+
+<line x1="0" y1="1562" x2="900" y2="1562" stroke="rgba(108,0,97,0.4)" stroke-width="1"/>
+
+<!-- ═══ POR QUÉ QUERRÍAS TRABAJAR CONMIGO ═══ -->
+<text x="36" y="1592" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#be03ab" letter-spacing="2">WHY WORK WITH ME</text>
+<line x1="464" y1="1587" x2="876" y2="1587" stroke="#6c0061" stroke-width="1"/>
+
+<rect x="22" y="1610" width="856" height="120" fill="rgba(108,0,97,0.15)" rx="8"/>
+<rect x="22" y="1610" width="3"   height="120" fill="#be03ab" rx="2"/>
+<text x="42" y="1638" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">I'm a Full Stack developer with real production experience — I ship complete projects, from architecture to UI.</text>
+<text x="42" y="1658" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">I integrate AI when it adds value, design for users, and write code that scales.</text>
+<text x="42" y="1682" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-style="italic" fill="rgba(255,166,246,0.85)">Now I'm adding blockchain — building functional, deployed smart contracts from day one.</text>
+<text x="42" y="1706" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffa6f6">Solid Full Stack + active AI + blockchain growth = a developer who can build the full picture.</text>
+
+<!-- CONTACT -->
+<text x="450" y="1768" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.65)">Looking for solid Full Stack skills, AI experience, and active blockchain growth? Let's talk.</text>
+<text x="450" y="1794" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#ffa6f6">sdeleyto@gmail.com</text>
+<text x="450" y="1818" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.5)">LinkedIn · Madrid, Spain</text>
+
+<!-- FOOTER -->
+<rect x="0" y="1870" width="900" height="50" fill="#1a001a" rx="0"/>
+<rect x="0" y="1870" width="900" height="1"  fill="#6c0061"/>
+<text x="450" y="1900" text-anchor="middle" font-family="monospace" font-size="11" fill="rgba(255,166,246,0.3)" letter-spacing="1">sarad-blockchain · building on-chain · one commit at a time</text>
+
+</svg>
