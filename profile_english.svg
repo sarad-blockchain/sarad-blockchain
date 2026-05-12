@@ -108,7 +108,7 @@
 <text x="450" y="88" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">Sara <tspan fill="#ffa6f6">Deleyto</tspan></text>
 <text x="450" y="113" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.75)">Full Stack Developer · Real production experience · Angular · PHP · REST APIs · OpenAI</text>
 <text x="450" y="130" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="rgba(255,166,246,0.75)">Now building on-chain — Solidity smart contracts · DeFi protocols · Hardhat · Foundry</text>
-<text x="450" y="147" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">Full Stack foundation + applied AI + active blockchain growth.</text>
+<text x="450" y="147" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">Full Stack developer + applied AI + active blockchain growth.</text>
 
 <!-- Pills hero -->
 <rect x="22"  y="162" width="118" height="22" fill="rgba(190,3,171,0.18)" rx="11" stroke="#be03ab" stroke-width="1"/>
